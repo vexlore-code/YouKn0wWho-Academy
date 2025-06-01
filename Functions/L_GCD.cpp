@@ -3,13 +3,11 @@ using namespace std;
 #define endl '\n'
 using ll = long long;
 
-void gcd_and_lcm(ll A, ll B)
+void gcd(ll A, ll B)
 {
-    ll g = __gcd(A, B);
-    ll l = (A / g) * B; // To avoid overflow
-    cout << g << " " << l << endl;
+    ll gcd = __gcd(A, B);
+    cout << gcd << endl;
 }
-
 int main()
 {
     ios::sync_with_stdio(false);
@@ -18,6 +16,6 @@ int main()
 
     ll A, B;
     cin >> A >> B;
-    gcd_and_lcm(A, B);
+    gcd(A, B);
     return 0;
 }
