@@ -19,7 +19,7 @@ int main()
     int A, B;
     cin >> A >> B;
     vector<int> luckyNumbers;
-    for (int i = A; i <= B; ++i)
+    for (int i = A; i <= B; i++)
     {
         if (isLucky(i))
             luckyNumbers.push_back(i);
@@ -30,7 +30,7 @@ int main()
     }
     else
     {
-        for (size_t i = 0; i < luckyNumbers.size(); ++i)
+        for (size_t i = 0; i < luckyNumbers.size(); i++)
         {
             if (i > 0)
                 cout << " ";
