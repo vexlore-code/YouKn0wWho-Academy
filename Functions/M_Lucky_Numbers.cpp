@@ -37,5 +37,5 @@ int main()
             cout << luckyNumbers[i];
         }
         cout << endl;
-    }sdd
+    }
 }
