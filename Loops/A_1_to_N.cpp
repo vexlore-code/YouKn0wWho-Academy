@@ -16,5 +16,6 @@ int main()
         m++;
         cout << m << endl;
     } while (n != m);
+    
     return 0;
 }
